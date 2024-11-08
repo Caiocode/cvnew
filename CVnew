@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New CV</title>
+    <style>
+        body{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            font-family: "roboto", sans-serif;
+            padding: 40px 0 0 0;
+        }
+        .cvBody{
+            width: 511px;
+            height: auto;
+            padding: 11px;
+            background: rgb(214,214,214);
+        }
+        .topBox{
+            width: 511px;
+            height: 100px;
+            background: rgba(255, 255, 255, 0.664);
+            border-radius: 20px 20px 0px 0;
+            display: flex;
+        }
+        .myPhoto{
+            width: 105px;
+            height: 105px;
+            background-color: white;
+            border-radius: 50%;
+            margin: 5px 0px 0px 130px;
+        }
+        .cvMePic{
+            margin: -5px 0 0 0px;
+            width: 105px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .myName{
+            background: rgba(255, 255, 0, 0);
+            color: rgb(24, 24, 24);
+            width: 211px;
+            display: grid;
+            justify-content: center;
+
+        }
+        .firstMiddleName{
+            font-size: 40px;
+            margin-top: 6px;
+            margin-left: 40px;
+        }
+        .lastName{
+            font-size: 48px;
+            margin-top: -35px;
+            margin-left: 75px;
+        }
+        .contactInfo{
+            background: rgba(255, 166, 0, 0);
+            color: rgb(24, 24, 24);
+            font-size: 13px;
+            width: 200px;
+            line-height: 23px;
+            display: grid;
+            justify-content: center;
+            padding: 17px 0;
+        }
+        .leftBox{
+            background: rgba(0, 0, 0, 0.071);
+            width: 200px;
+            display: grid;
+            margin: 15px 0 0 0;
+            padding: 10px 10px 10px 0px;
+            border-radius: 0 0 0 20px;
+        }
+        .leftBoxHr{
+            border: 1px solid rgba(255, 255, 255, 0.383);
+            width: 165px;
+            height: 0;
+            margin: 10px;
+        }
+        .header1{
+            font-size: 20px;
+            margin-left: 11px;
+            font-style: italic;
+            padding: 0 0 5px 0;
+        }
+        .header2{
+            font-size: 13px;
+            padding: 5px 0 5px 11px;
+            font-weight: 200;
+        }
+        .littleBoxFull{
+            width: 31px;
+            height: 5px;
+            background: white;
+        }
+        .littleBoxEmpty{
+            width: 31px;
+            height: 5px;
+            background: rgba(255, 255, 255, 0.312);
+        }
+        .langBoxes{
+            margin-top: -2px;
+            display: flex;
+        }
+        .langLvl{
+            margin-left: 10px;
+            font-style: italic;
+        }
+
+        .downBoxes{
+            display: flex;
+        }
+        .rightBox{
+            background: rgb(235, 235, 235);
+            margin: 15px 0 0 10px;
+            width: 290px;
+            padding: 10px;
+            border-radius: 0 0 20px 0;
+        }
+        .header11{
+            font-size: 20px;
+            font-weight: 500;
+            font-style: italic;
+        }
+        .experience{
+            margin-top: 10px;
+        }
+        .date{
+            font-size: 12px;
+            font-weight: 400;
+            font-style: italic;
+        }
+        .about{
+            font-size: 16px;
+            text-align: justify;            
+        }
+        .experienceText{
+            font-size: 14px;
+            font-weight: 400;
+            text-align: justify;
+            word-spacing: 0px;
+        }
+        .location{
+            font-size: 13px;
+        }
+        .experienceHr{
+            border: 1px solid rgb(196, 196, 196);
+        }
+        .hobbiesHeader{
+            font-size: 20px;
+            font-style: italic;
+            font-weight: 500;
+        }
+        .hobbiesText{
+            font-weight: 400;
+            font-size: 14px;
+            padding-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cvBody">
+        <div class="topBox">
+            <div class="myName"><span class="firstMiddleName">Caio Polo</span><br><span class="lastName">Romeo</span></div>
+            <div class="myPhoto"><img class="cvMePic" src="IMG_8956.jpg" alt="" srcset=""></div>
+        </div>
+        <div class="downBoxes">
+            <div class="leftBox">
+                <div class="contact">
+                    <div class="header1">Kontact</div>
+                    <div class="header2">Ruwermuendung, 5 - Trier</div>
+                    <div class="header2">Caiopolo111@gmail.com</div>
+                    <div class="header2">0176 32509680</div>
+                </div>
+                <hr class="leftBoxHr">
+                <div class="citizenship">
+                    <div class="header1">Staatsbürgerschaften</div>
+                    <div class="header2">Italien</div>
+                    <div class="header2">Brasilien</div>
+                </div>
+                <hr class="leftBoxHr">
+                <div class="habilities">
+                    <div class="header1">Kompetenzen</div>
+                    <div class="header2">- Microsoft Excel</div>
+                    <div class="header2">- Microsoft Word</div>
+                    <div class="header2">- HTML5 & CSS3</div>
+                    <div class="header2">- JavaScript</div>
+                    <div class="header2">- Virtual designer</div>
+                </div>
+                <hr class="leftBoxHr">
+                <div class="personalStrenght">
+                    <div class="header1">Persönliche Stärken</div>
+                    <div class="header2">Kreativität</div>
+                    <div class="header2">Sprachaustausch</div>
+                    <div class="header2">Sehr wendig</div>
+                    <div class="header2">Teamarbeit</div>
+                    <div class="header2">Kompetent</div>
+                </div>
+                <hr class="leftBoxHr">
+                <div class="languages">
+                    <div class="header1">Sprachen</div>
+                    <div class="header2">Englisch <span class="langLvl">(Native)</span></div>
+                    <div class="header2 langBoxes"><div class="littleBoxFull"></div><div class="littleBoxFull"></div><div class="littleBoxFull"></div><div class="littleBoxFull"></div><div class="littleBoxFull"></div></div>
+                    <div class="header2">Portugiesisch <span class="langLvl">(Native)</span></div>
+                    <div class="header2 langBoxes"><div class="littleBoxFull"></div><div class="littleBoxFull"></div><div class="littleBoxFull"></div><div class="littleBoxFull"></div><div class="littleBoxFull"></div></div>
+                    <div class="header2">Spanisch <span class="langLvl">(B2 abgeschlossen)</span></div>
+                    <div class="header2 langBoxes"><div class="littleBoxFull"></div><div class="littleBoxFull"></div><div class="littleBoxFull"></div><div class="littleBoxFull"></div></div>
+                    <div class="header2">Deutsch <span class="langLvl">(B1 abgeschlossen)</span></div>
+                    <div class="header2 langBoxes"><div class="littleBoxFull"></div><div class="littleBoxFull"></div><div class="littleBoxFull"></div></div>
+                </div>
+            </div>
+            <div class="rightBox">
+                <div class="experienceBox">
+                    <div class="experienceHeader header11">Arbeitserfahrung</div>
+                    <div class="experience">
+                        <div class="date">September 2024</div>
+                        <div class="about">Metallurge am <strong>BLH-Bauelemente für Lüftungstechnik Hennen GmbH</strong><span class="location"><em> - Trier, Deutschland</em></span></div>
+                        <p class="experienceText">- Ich habe verschiedene Arbeiten im Unternehmen kennengelernt, den Umgang mit Maschinen und die Montage von Metallteilen.</p>
+                    </div>
+                    <hr class="experienceHr">
+                    <div class="experience">
+                        <div class="date">December 2022 - June 2024</div>
+                        <div class="about"> Verkäufer bei <strong>Perfumeland Megastore</strong><div class="location"><span><em> Orlando - Florida, United States</em></span></div></div>
+                        <p class="experienceText">- Ich habe bei Perfumeland in Orlando im Bereich Elektronikverkauf gearbeitet und verfüge über umfangreiche Kenntnisse in diesem Bereich.</p>
+                        <p class="experienceText">- Ich war für die gesamte Entwicklung des Elektroniksektors verantwortlich und hielt mich über Produkte auf dem Laufenden, die dem Unternehmen Gewinn bringen könnten oder nicht.</p>
+                        <p class="experienceText">- Ich habe alle Bedürfnisse meiner Kunden erfüllt, wann immer ich konnte, und sie immer mit meiner Ruhe, Fürsorge und Geduld zufrieden gestellt.</p>
+                    </div>
+                    <hr class="experienceHr">
+                    <div class="experience">
+                        <div class="date">Januar 2020 - Mai 2020</div>
+                        <div class="about">Barman im <strong>Hotel EurenerHof</strong><span class="location"><em> - Trier, Deutschland</em></span></div>
+                        <p class="experienceText">- Verantwortlich für die Zubereitung verschiedener Getränke unter Verwendung des richtigen Getränks mit einer bestimmten Geschicklichkeit und Geschwindigkeit.</p>
+                        <p class="experienceText">- Ich habe daran mitgewirkt, die Umgebung, in der ich arbeitete, stets sauber und desinfiziert zu halten.</p>
+                    </div>
+                    <hr class="experienceHr">
+                    <div class="hobbiesBox">
+                        <div class="hobbiesHeader">Hobbies</div>
+                        <div class="hobbiesText">- Football spielen, laufen, surfen</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
